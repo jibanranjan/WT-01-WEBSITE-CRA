@@ -1,0 +1,48 @@
+.footerDiv{
+    height: 18rem;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.firstDiv{
+    width: 15rem;
+    
+
+}
+
+.titleh4{
+    margin-bottom: 1rem;
+}
+
+.titlerecent{
+    margin-bottom: 1rem;
+    font-weight: 10;
+
+}
+
+
+
+.small-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .small-grid-item {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .small-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

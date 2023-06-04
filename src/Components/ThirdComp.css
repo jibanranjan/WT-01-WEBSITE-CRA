@@ -1,0 +1,43 @@
+
+
+.mainthrdimgDiv{
+    width: 100vw;
+    margin-top: 2rem;
+    height: 20rem;
+    padding:0%;
+  
+    
+}
+
+.chip-photo > img{
+    width: 100vw;
+    height: 20rem;
+    position: relative;
+
+}
+
+
+.photo-content{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    top:57rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+    gap: 16rem;
+    cursor: pointer;
+
+}
+
+
+
+.photo-content > h2 {
+    margin-left: 10rem;
+
+}
+
+.noicon{
+    margin-left: .7rem;
+}

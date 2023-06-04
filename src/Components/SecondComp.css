@@ -1,0 +1,62 @@
+.featuresMaindiv{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.icondiv{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.linkIcon{
+    color: purple;
+}
+
+.iconMainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    
+}
+
+.iconText{
+    width: 20rem;
+    margin-left: 0rem;
+}
+
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.iconText > h3{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.iconText > p{
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+

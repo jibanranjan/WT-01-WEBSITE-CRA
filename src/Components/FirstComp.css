@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first-main-img-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.lapDiv{
+   
+    height: 20rem;
+    position: relative;
+    color: white;
+    /* border: 1px solid red; */
+    width: 100vw;
+    
+}
+
+.lapphoto{
+    width: 100vw;
+    height: 20rem;
+}
+
+
+.lapContent{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+   
+}
+
+.readMore{
+    height: 2rem;
+    width: 6rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
